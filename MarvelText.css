@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black; /* Set the background color to black */
-  color:yellow; /* Set the default text color to white */
+  color: yellow; /* Set the default text color to white */
 }
 
 .marvel-container {
@@ -30,11 +30,11 @@ body {
 }
 
 .tab-spacer {
-  width: 20px; /* Adjust the width to control the spacing */
+  width: 50px; /* Adjust the width to control the spacing */
 }
 
 .tab-button.active {
-  background-color:black;
+  background-color: black;
   color: #fff;
 }
 
@@ -45,9 +45,8 @@ body {
   text-align: center;
   font-size: 36px;
   margin-top: 20px; /* Adjust the margin as needed */
-  color:red;
+  color: red;
 }
-
 
 .search-tab {
   display: flex;
@@ -60,8 +59,6 @@ body {
   border-radius: 5px;
   margin-left: 20px; /* Add margin to separate the search tab from other tabs */
 }
-
-/* MarvelText.css */
 
 .marvel-container {
   background-color: black; /* Set the background color for the entire container */
@@ -84,7 +81,7 @@ body {
   display: flex; /* Display tabs in a row */
   align-items: center;
   justify-content: flex-start; /* Align tabs to the left */
-  margin-bottom: 10px; /* Add space between tab rows */
+  margin-bottom: 20px; /* Add space between tab rows */
 }
 
 .tab-button {
@@ -102,11 +99,83 @@ body {
 }
 
 .tab-spacer {
-  width: 20px; /* Adjust the width to control the spacing between tabs */
+  width: 150px; /* Adjust the width to control the spacing between tabs */
 }
 
 .content {
-  margin-top: 20px; /* Add space between tabs and content */
+  margin-top: 10px; /* Add space between tabs and content */
 }
 
-/* Add more styles as needed for your specific content */
+.marvel-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  margin-right: 700px; /* Add some margin to separate it from the content */
+}
+
+/* Style for the "Order By" buttons */
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar .tab-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar .tab-button.active {
+  background-color: #f00;
+}
+
+.content {
+  flex: 1; /* Allow content to expand and fill the remaining space */
+}
+
+.header {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align tabs to the left */
+  margin-top: 20px;
+}
+
+.tab-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Reduce space between tab rows */
+}
+
+.tab-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.tab-button.active {
+  background-color: #f00;
+}
+
+.tab-spacer {
+  width: 200px;
+}
